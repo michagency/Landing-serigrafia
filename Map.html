@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            width: 100%;
+            margin: auto;
+            background: #333;
+        }
+
+        iframe {
+            flex: 0 0 auto;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- DO NOT COPY this URL. It cannot be used in your production site. -->
+   <iframe src="https://snazzymaps.com/embed/232779" width="100%" height="100%" style="border:none;"></iframe>
+</body>
+	<script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: {lat: -33, lng: 151},
+          disableDefaultUI: true
+        });
+      }
+    </script>
+
+</html>
+
