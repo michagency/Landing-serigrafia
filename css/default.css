@@ -61,22 +61,19 @@ a:hover {
 }
 
 .container > header nav a {
-	display: block;
+	display: inline-flex;
 	float: left;
 	position: relative;
-	width: 2.5em;
-	height: 2.5em;
-	background: #fff;
-	border-radius: 50%;
+	width: 100%;
+	height: 100%;
 	color: transparent;
 	margin: 0 0.1em;
-	border: 4px solid #fff;
 	text-indent: -8000px;
 }
 
 .container > header nav a:after {
 	content: attr(data-info);
-	color: #fff;
+	color: #;
 	position: absolute;
 	width: 600%;
 	top: 120%;
@@ -91,7 +88,7 @@ a:hover {
 }
 
 .container > header nav a:hover {
-	background: #47a3da;
+	background: ;
 }
 
 .icon-drop:before, 
@@ -123,4 +120,3 @@ a:hover {
 .icon-arrow-left:before {
 	content: "\f060";
 }
-

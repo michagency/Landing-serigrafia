@@ -54,7 +54,7 @@ html, body,
 }
 
 #fbsection1 {
-	background-image: url(../images/01.jpg);
+	background: rgba(144,19,254,0.09) url(../images/01.jpg) no-repeat;
 }
 
 #fbsection2 {
