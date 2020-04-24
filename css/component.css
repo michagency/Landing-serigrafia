@@ -54,23 +54,23 @@ html, body,
 }
 
 #fbsection1 {
-	background-image: url(../images/1.jpg);
+	background-image: url(../images/01.jpg);
 }
 
 #fbsection2 {
-	background-image: url(../images/2.jpg);
+	background: white;
 }
 
 #fbsection3 {
-	background-image: url(../images/3.jpg);
+	background: #1F262C;
 }
 
 #fbsection4 {
-	background-image: url(../images/4.jpg);
+	background: white;
 }
 
 #fbsection5 {
-	background-image: url(../images/5.jpg);
+	background-image: url(../images/02.jpg);
 }
 #fbsection6 {
 	background:white;
